@@ -1,43 +1,22 @@
 # NBA-DATA
 
-NBA-DATA is a full-stack NBA analytics platform that allows users to search, compare, and save NBA player statistics through an interactive web interface. The project integrates external NBA data, user authentication, optimized database queries, and personalized favorites to provide a smooth player comparison experience.
+Collaborative NBA statistics and player-comparison project.
 
-## Features
+This repository is a fork of [apodaca21/NBADATA](https://github.com/apodaca21/NBADATA). It includes project files under [Downloads/](Downloads/).
 
-- Search NBA players by name
-- Compare real-time player statistics
-- Filter and paginate player results
-- User authentication system
-- Personalized favorites list
-- Interactive player stat visualizations
-- REST API integration with authentication middleware
-- Optimized database queries for fast response times
+## Project scope
 
-## Tech Stack
+The project explores an NBA statistics interface built around player lookup, comparisons, and data-backed application features.
 
-**Frontend / UI**
-- Razor Pages
-- HTML
-- CSS
-- JavaScript
+The previous README described an ASP.NET Core / Razor Pages application with Entity Framework Core, SQLite, and external NBA data. See the source folders for the actual implementation and configuration.
 
-**Backend**
-- ASP.NET Core
-- C#
-- Entity Framework Core
-- REST APIs
+## Repository layout
 
-**Database**
-- SQLite
+- [Downloads/cetys-icc-hetplat-migue](Downloads/cetys-icc-hetplat-migue) — course project materials
+- [Downloads/pruebasnba-d68665cce338a630221273034c3170995061195b](Downloads/pruebasnba-d68665cce338a630221273034c3170995061195b) — NBA application project files
 
-**External API**
-- BallDontLie API
+## Notes
 
-## Project Highlights
+This README does not claim verified benchmarks or production deployment. In particular, the previously listed concurrency and latency figures have not been independently reproduced.
 
-- Built a full-stack analytics platform using ASP.NET Core, EF Core, SQLite, and the BallDontLie API.
-- Implemented fast player search, filtering, and pagination using optimized Entity Framework Core queries.
-- Added authentication and a personalized favorites system for saved player profiles.
-- Designed interactive data visualizations to compare NBA player statistics.
-- Developed REST API endpoints with authentication middleware.
-- Supported 500+ concurrent data queries with response times under 200ms.
+For setup instructions, open the relevant application folder and inspect its project files and configuration. Contributions belong to the original collaborative project and should not be attributed to one person without evidence.
